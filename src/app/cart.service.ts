@@ -14,11 +14,11 @@ export class CartService {
     this.items.push(product);
   }
 
-  getItems() {
+  getItemz() {
     return this.items;
   }
 
-  clearCart() {
+  clearCartz() {
     this.items = [];
     return this.items;
   }
